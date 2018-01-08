@@ -1,8 +1,8 @@
 from flask import render_template
-from app import app
+from . import main
 
 #views
-@app.route('/')
+@amain.route('/')
 def index();
 
 
