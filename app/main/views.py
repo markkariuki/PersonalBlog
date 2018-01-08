@@ -7,3 +7,8 @@ from flask_login import login_required
 def index():
 
     return render_template('index.html')
+
+@main.route('/c/')
+@login_required
+def new_review(id):
+    pass
