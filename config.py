@@ -27,7 +27,7 @@ class DevConfig(Config):
     pass
 
 
-   DEBUG = True
+    DEBUG = True
 
 config_options = {
 'development':DevConfig,
