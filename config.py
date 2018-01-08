@@ -2,7 +2,8 @@ class Config:
     '''
     General configuration parent class
     '''
-    pass
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://username:password@localhost/blog'
+
 class TestConfig(Config):
     '''
     Configuration class for the test
